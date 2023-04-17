@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Taking advantage of the time zone difference to build a non-stop development-testing cycle">
+      <meta name="keywords" content="continuous integration testing, Software Testing Company, ecommerce web application">
+      <meta name="author" content="Tinhvan software">
+      <meta property="og:title" content="Tinhvan Software - Quality Assurance">
+      <meta property="og:description" content="Taking advantage of the time zone difference to build a non-stop development-testing cycle">
+      <meta property="og:image" content="./images/quality-bg.webp">
+      <meta property="og:url" content="https://qa.tso.vn/">
+      <link rel="canonical" href="https://qa.tso.vn/" />
+      <meta name="google-site-verification" content="QdaADf6WhwvSaHhm0aO37DV_3rmjXdc4GqWicxGgiec" />
+      <title>Tinhvan Software - Quality Assurance</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
+      <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./css/minified.css" />
+   </head>
+   <body id="overflow_body">
+      <!-- Header Begin -->
+      <nav class="header_firstpage--bg" style="background: url('./images/quality-bg.webp' ) no-repeat center / cover;">
+         <div id="z_index-body" class="header__nav-container header__nav-fixed">
+            <div class="grid qa_header d-flex justify--space-between">
+               <div class="header__nav d-flex">
+                  <a  rel='noreferrer' target="_blank" href="https://tso.vn/" class="header__nav-logo">
+                  <img class="logo_tso"  title="QA images" alt="Tinhvan qa Development images" src="./images/TV-software 1.webp" title="QA images" alt="" />
+                  </a>
+                  <ul class="header__nav-list d-flex">
+                     <li class="header__nav-item">
+                        <a href="#services" class="header__nav-link">Services</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#strengths" class="header__nav-link">Strengths</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#reference" class="header__nav-link">Reference</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#markets" class="header__nav-link">Markets</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#contact" class="header__nav-link">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+               <div  class="header__nav--s d-flex">
+                  <label for="menu"  class="header__label-btn">Menu</label>
+                  <input type="checkbox" hidden name="" id="menu" class="header__checkbox" />
+                  <ul  class="header__nav-list header__nav-list--s">
+                     <li class="header__nav-item">
+                        <a href="#services" class="header__nav-link">Services</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#strengths" class="header__nav-link">Strengths</a>
+                     </li>
+                     <li class="header__nav-item header__checkbox">
+                        <a href="#reference" class="header__nav-link">Reference</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#markets" class="header__nav-link">Markets</a>
+                     </li>
+                     <li class="header__nav-item">
+                        <a href="#contact" class="header__nav-link">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="grid header__welcome--three">
+            <div class="row header__welcome--box">
+               <div class="col l-6 m-6 xs-12 header_img--box">
+                  <img src="./images/6228378 1.webp" title="QA images" alt="Tinhvan qa Development images" class="header_qa--img">
+               </div>
+               <div class="col l-6 m-6 xs-12">
+                  <div class="header_firstpage--contact" style="text-align: end;">
+                     <h1 class="header_firstpage--heading title_header--threepage--heading">
+                     FOLLOW THE SUN <br>
+                     QUALITY ASSURANCE
+                     </h1>
+                     <span id="header_firstpage--content">
+                     Taking advantage of the time zone difference <br> to build a non-stop development-testing cycle
+                     </span>
+                     <button class="btn header_infor--button--three" id="myBtn">Contact us</button>
+                     <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                           <div class="main_contact--form_button">
+                              <span class="close">&times;</span>
+                              <span class="contact_form--infor--button ">PLEASE FILL YOUR INFORMATION</span>
+                              <span class="contact_form--title--buton">Tinhvan Software will contact you soon</span>
+                              <div class="contact_form--main">
+                                 <ul class="contact_form--list">
+                                    <li class="contact_form--item">
+                                       <input
+                                          class="contact_form--input"
+                                          id="full_name_modal"
+                                          placeholder="Your Full Name"
+                                          type="text"
+                                          required
+                                          />
+                                       <span class="validate_text" id="name_text_modal">Please enter your name</span>
+                                       <span class="validate_text " id="special_text_modal">please do not enter special characters</span>
+                                    </li>
+                                    <li class="contact_form--item">
+                                       <input
+                                          class="contact_form--input"
+                                          id="company_modal"
+                                          placeholder="Your Company"
+                                          type="phone"
+                                          required
+                                          />
+                                       <span class="validate_text" id="name_company_modal">Please enter your company</span>
+                                       <span class="validate_text " id="special_company_modal">please do not enter special characters</span>
+                                    </li>
+                                    <li class="contact_form--item">
+                                       <input
+                                          class="contact_form--input"
+                                          id="email_modal"
+                                          placeholder="Your Email"
+                                          type="email"
+                                          required
+                                          />
+                                       <span class="validate_text" id="name_email_modal">Please enter your email</span>
+                                       <span class="validate_text " id="special_email_modal">please do not enter special characters</span>
+                                    </li>
+                                    <li class="contact_form--item">
+                                       <textarea
+                                          class="contact_form--textarea"
+                                          id="note_modal"
+                                          rows="5"
+                                          placeholder="Note"
+                                          ></textarea>
+                                    </li>
+                                 </ul>
+                                 <button class="btn contact_form--btn" onclick="userCreateModal()">Submit</button>
+                              </div>
+                              <!-- popup -->
+                              <div class="popup" id="popup-1_modal">
+                                 <div class="overlay"></div>
+                                 <div class="content">
+                                    <div class="close-btn" onclick="togglePopupModal()">&times;</div>
+      
+                                    <p class="text_success"> Thanks for your message. We will get back to you soon. </p>
+                                 </div>
+                              </div>
+                              <!-- end popup -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- Header End -->
+      <main class="main">
+         <div class="main_product_three" id="services">
+         <div class="grid">
+            <div class="col l-12 m-12 xs-12">
+               <!-- <div class="main_product_img"><img class="logo_continuous" src="./images/TV-software 2.webp" /></div> -->
+               <h2 class="main_product--heading " id="main_product--heading">Continuous Testing Solutions</h2>
+               <div class="main_product--subtext" id="main_product--subtext">Testing executed round-the-clock by ISTQB
+                  certified experts for a fraction of the cost
+               </div>
+               <div class="carousel-wrap--continuous carousel-wrap">
+                  <div class="owl-carousel">
+                     <div class="item d-flex owl_carousel--item">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" src="./images/Refresh_Web_online_Logo3 1.webp">
+                        <span class="owl_carousel--heading">AUTOMATED TESTING</span>
+                     </div>
+                     <div class="item d-flex owl_carousel--item">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" id="main_product--img" src="./images/Laptop Tablet Computer.I15 1.webp">
+                        <span class="owl_carousel--heading">SOFTWARE AUDIT </span>
+                     </div>
+                     <div class="item d-flex owl_carousel--item"><img title="QA images" alt="Tinhvan qa Development images" class="main_product--img"
+                        src="./images/Golden Smartphone.I16 1.webp">
+                        <span class="owl_carousel--heading">MANUAL TESTING</span>
+                     </div>
+                     <div class="item d-flex owl_carousel--item">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" src="./images/Desktop Computer.H03 1.webp">
+                        <span class="owl_carousel--heading">HARDWARE TESTING</span>
+                     </div>
+                     <div class="item d-flex owl_carousel--item">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" src="./images/devops.webp">
+                        <span class="owl_carousel--heading">DEVOPS</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+         </div>
+          <!-- strengths begin -->
+          <div id="strengths" class="main_offer" style="background: url('./images/Group\ 26.webp');">
+            <h2 class="title_offer">
+            OFFERING
+            </h2>
+            <div class="grid main_offer-content">
+               <div class="padding_text_offer d-flex">
+                  <img title="QA images" alt="Tinhvan qa Development images" class="img_offer" src="./images/Group 7.webp" />
+                  <p class="text_offer">Dedicated QA team working out of hours</p>
+               </div>
+               <div class="padding_text_offer d-flex">
+                  <img title="QA images" alt="Tinhvan qa Development images" class="img_offer" src="./images/Group 7.webp" />
+                  <p class="text_offer">Testing every night. Test results available in the next morning</p>
+               </div>
+               <div class="padding_text_offer d-flex">
+                  <img title="QA images" alt="Tinhvan qa Development images" class="img_offer" src="./images/Group 7.webp" />
+                  <p class="text_offer">High skilled QA service: code review</p>
+               </div>
+            </div>
+          </div>
+         <div id="reference" class="main_product">
+            <div class="grid">
+               <div class="col l-12 m-12 xs-12">
+                  <h2 class="main_product--heading"
+                     >Representative Projects</h2
+                     >
+                  <div class="carousel-wrap">
+                     <div class="owl-carousel owl_carousel-project">
+                        <div class="item d-flex owl_carousel--item">
+                           <img
+                              title="QA images" alt="Tinhvan qa Development images"
+                              class="main_product--img"
+                              src="./images/panasonic.webp"
+                              />
+                           <span class="owl_carousel--heading"
+                              >Panasonic</span
+                              >
+                           <span class="owl_carousel--subtext"
+                              >Testing team worked on hundred Panasonic projects over 8 years from around the world with approx. 30 Tinhvan testers. 
+                           Manual testing, automation testing, device testing, game testing. 
+                           </span
+                              >
+                        </div>
+                        <div class="item d-flex owl_carousel--item">
+                           <img
+                              title="QA images" alt="Tinhvan qa Development images"
+                              class="main_product--img"
+                              src="./images/petrolimex.webp"
+                              />
+                           <span class="owl_carousel--heading"
+                              >Petrolimex</span
+                              >
+                           <span class="owl_carousel--subtext"
+                              >Stress & load testing project for automotive vending machine for petroleum company to find the “system break point”.
+                           </span
+                              >
+                        </div>
+                        <div class="item d-flex owl_carousel--item">
+                           <img
+                              title="QA images" alt="Tinhvan qa Development images"
+                              class="main_product--img"
+                              src="./images/telkomsel.webp"
+                              />
+                           <span class="owl_carousel--heading"
+                              >Telkomsel</span
+                              >
+                           <span class="owl_carousel--subtext"
+                              >Automation regression testing for Telkomsel - the biggest telco in South East Asia in terms of number of subscribers.
+                           </span
+                              >
+                        </div>
+                        <div class="item d-flex owl_carousel--item">
+                           <img
+                              title="QA images" alt="Tinhvan qa Development images"
+                              class="main_product--img"
+                              src="./images/prudential.webp"
+                              />
+                           <span class="owl_carousel--heading"
+                              >Prudential</span
+                              >
+                           <span class="owl_carousel--subtext"
+                              >Testing team worked on various projects both onsite and remotely. 
+                           </span
+                              >
+                        </div>
+                        <div class="item d-flex owl_carousel--item">
+                           <img
+                              title="QA images" alt="Tinhvan qa Development images"
+                              class="main_product--img"
+                              src="./images/fujitsu.webp"
+                              />
+                           <span class="owl_carousel--heading"
+                              >Fujitsu</span
+                              >
+                           <span class="owl_carousel--subtext"
+                              >Testing team worked on a multi-year project that requires domain knowledge and high proficiency in SQL. 
+                           </span>
+                        </div>
+                        <div class="item d-flex owl_carousel--item">
+                           <img
+                              title="QA images" alt="Tinhvan qa Development images"
+                              class="main_product--img"
+                              src="./images/unilever.webp"
+                              />
+                           <span class="owl_carousel--heading"
+                              >Unilever</span
+                              >
+                           <span class="owl_carousel--subtext"
+                              >TSO BA/testing team work remotely in an internationally-formed team in multiple time zones for rolling out a product for different countries in SEA.
+                           </span
+                              >
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="markets" class="markets_box" style="background: url('./images/Mask\ group.webp') no-repeat center / cover;">
+            <div class="grid">
+               <div class="row space-between">
+                  <div class="col l-6 m-6 xs-12 markets_box--col">
+                     <div style="text-align: center;">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" src="./images/Symbol Graph Red Gray.I01 1.webp">
+                        <p class="owl_carousel--heading title_img--markets" >International Coporate<br /> development
+                           teams
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col l-6 m-6 xs-12 markets_box--col">
+                     <div style="text-align: center;">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" src="./images/Bank Location Symbol.I02 1.webp" style="">
+                        <p class="owl_carousel--heading title_img--markets" style="text-align: center;margin-bottom: 0px;margin-top: 25px;">Near-shore software<br />
+                           outsourcing firms where this is a<br /> value-add and margin enhancer
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <h2 class="title_main-markets">POTENTIAL PARTNERS</h2>
+               <div class="row space-between">
+                  <div class="col l-12 m-12 xs-12 markets_box--col">
+                     <div style="text-align: center;">
+                        <img title="QA images" alt="Tinhvan qa Development images" class="main_product--img" src="./images/Handshake Gesture Emoji.I02 1.webp">
+                        <p class="owl_carousel--heading title_img--markets">International Coporate<br /> development
+                           teams
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- contact -->
+         <div id="contact" class="main_contact" style="background: url('./images/contact.webp') no-repeat scroll center / cover;">
+            <div class="grid main_contact--box">
+               <div class="row main_contact--wrapper">
+                  <div class="col l-6 m-12 xs-12 main_contact--right">
+                     <!-- <div class="d-flex j-center" id="images_tso"><img class="image_tso" src="./images/TV-software 3.webp" /></div> -->
+                     <h2 class="main_contact--heading">REQUEST FOR MEETING</h2>
+                     <span class="main_contact--subtext">We are ready to help you</span>
+                  </div>
+                  <div class="col l-6 m-12 xs-12 main_contact--col" id="main_form--contact">
+                     <div class="main_contact--form">
+                        <div>
+                           <span class="contact_form--infor">PLEASE FILL YOUR INFORMATION</span>
+                           <span class="contact_form--title">Tinhvan Software will contact you soon</span>
+                        </div>
+                        <div class="contact_form--main">
+                           <ul class="contact_form--list">
+                              <li class="contact_form--item">
+                                 <input
+                                    class="contact_form--input"
+                                    id="full_name"
+                                    placeholder="Your Full Name"
+                                    type="text"
+                                    required
+                                    />
+                                 <span class="validate_text text_contact" id="name_text">Please enter your name</span>
+                                 <span class="validate_text text_contact" id="special_text">please do not enter special characters</span>
+                              </li>
+                              <li class="contact_form--item">
+                                 <input
+                                    class="contact_form--input"
+                                    id="company"
+                                    placeholder="Your Company"
+                                    type="text"
+                                    required
+                                    />
+                                 <span class="validate_text text_contact" id="company_text">Please enter your company</span>
+                                 <span class="validate_text text_contact" id="special_company">please do not enter special characters</span>
+                              </li>
+                              <li class="contact_form--item">
+                                 <input
+                                    class="contact_form--input"
+                                    id="email"
+                                    placeholder="Your Email"
+                                    type="email"
+                                    required
+                                    />
+                                 <span class="validate_text text_contact" id="email_text">Please enter your email</span>
+                                 <span class="validate_text text_contact" id="special_email">please do not enter special characters</span>
+                              </li>
+                              <li class="contact_form--item">
+                                 <textarea
+                                    class="contact_form--textarea"
+                                    id="note"
+                                    rows="5"
+                                    placeholder="Note"
+                                    ></textarea>
+                              </li>
+                           </ul>
+                           <button onclick="userCreate()" class="btn contact_form--btn">Submit</button>
+                        </div>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        <!-- end contact -->
+         <!-- popup -->
+         <div class="popup" id="popup-1">
+          <div class="overlay"></div>
+          <div class="content">
+             <div class="close-btn" onclick="togglePopup()">&times;</div>
+             <p class="text_success"> Thanks for your message. We will get back to you soon. </p>
+          </div>
+       </div>
+       <!-- end popup -->
+      </main>
+      <!-- Footer Begin -->
+      <footer
+      class="footer"
+      style="
+      background: url('./images/footer.jpg') no-repeat scroll center /
+      cover;
+      "
+      >
+      <div class="grid footer-box">
+         <div class="row">
+            <div class="col_footer l-4 pt-15 footer__item m-6 xs-12 no-pt-48">
+               <div>
+                  <h3 class="footer__heading">Hanoi</h3>
+                  <div class="footer__text footer__contact">
+                     <span>
+                        <i class="fas fa-map-marker-alt  footer__icon"></i>
+                     </span>
+                     <span
+                        >8th Floor, Sport Hotel, Hacinco Student Village, Thanh Xuan dist, Hanoi, Vietnam</span
+                        >
+                  </div>
+                  <a href="#" class="footer__text footer__contact">
+                  <span>
+                  <i class="fas fa-phone footer__icon"></i>
+                  </span>
+                  <span>(+84) 24 3558 9970</span>
+                  </a>
+               </div>
+               <div class="datascience_social">
+                  <span class="datascience_social--text">
+                     Contact:
+                  </span>
+                  <a target="_blank" rel='noreferrer'  href="https://www.linkedin.com/company/tinhvan-software/" >
+                     <span>
+                           <i class="fab fa-linkedin footer__icon--social"></i>
+                     </span>
+                  </a>
+                  <a target="_blank" rel='noreferrer'  href="https://www.facebook.com/TinhvanSoftware">
+                     <span>
+                        <i class="fab fa-facebook-square footer__icon--social"></i>
+                     </span>
+                  </a>
+               </div>
+            </div>
+            <div
+               class="col_footer l-4 pt-15 footer__item m-6 xs-12 no-pt-48 footer_border"
+               >
+               <div>
+                  <h3 class="footer__heading">Ho Chi Minh City</h3>
+                  <div class="footer__text footer__contact">
+                     <span>
+                        <i class="fas fa-map-marker-alt  footer__icon"></i>
+                     </span>
+                     <span
+                        >6th Floor, Cu Xa Do Thanh Building, No. 10, Street 1, Ward 4, Dist. 3, Ho Chi Minh City, Vietnam</span
+                        >
+                  </div>
+                  <a href="#" class="footer__text footer__contact">
+                  <span>
+                  <i class="fas fa-phone footer__icon"></i>
+                  </span>
+                  <span>(+84) 28 3868 0888</span>
+                  </a>
+               </div>
+            </div>
+            <div class="col_footer l-4 pt-15 footer__item m-6 xs-12 no-pt-48">
+               <div>
+                  <h3 class="footer__heading">JAPAN</h3>
+                  <div class="footer__text footer__contact">
+                     <span>
+                        <i class="fas fa-map-marker-alt  footer__icon"></i>
+                     </span>
+                     <span
+                        >Room 1003, 10th Floor, Aios Gotanda EKimae Building, 1-11-1 Nishi-Gotanda, Shinagawa-ku, Tokyo 141-0031, Japan</span
+                        >
+                  </div>
+                  <a href="#" class="footer__text footer__contact">
+                  <span>
+                  <i class="fas fa-phone footer__icon"></i>
+                  </span>
+                  <span>(+81) 3 6417 0843</span>
+                  </a>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+     
+      <!-- <div class="grid footer_boder-box">
+         <div class="col l-12 footer__copyright">
+            <div>
+               <p class="footer__text footer_boder">
+                  ©<span id="year"></span> All rights reserved Tinhvan Software
+                  Jsc.
+                  <script>
+                     document.getElementById("year").innerHTML =
+                       new Date().getFullYear();
+                  </script>
+               </p>
+            </div>
+         </div>
+      </div> -->
+   </footer>
+   <!-- Footer End -->
+      <script>
+         var modal = document.getElementById("myModal");
+         var btn = document.getElementById("myBtn");
+         var span = document.getElementsByClassName("close")[0];
+         btn.onclick = function() {
+           modal.style.display = "block";
+         }
+         span.onclick = function() {
+           modal.style.display = "none";
+         }
+         // window.onclick = function(event) {
+         //   if (event.target == modal) {
+         //     modal.style.display = "none";
+         //   }
+         // }
+      </script>
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4PRQJVN7Y"></script>
+         <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-H4PRQJVN7Y');
+         </script>
+
+         <!-- Start of HubSpot Embed Code -->
+         <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21853224.js"></script>
+         <!-- End of HubSpot Embed Code -->
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
+      <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.10/jquery-ui.min.js"></script>
+      <script src="./js/script.js"></script>
+   </body>
+</html>

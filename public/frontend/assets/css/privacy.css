@@ -1,0 +1,13 @@
+span {
+  color: var(--purple);
+}
+
+.page_title {
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .page_title {
+    margin-top: 40px;
+  }
+}

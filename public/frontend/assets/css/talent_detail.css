@@ -1,0 +1,132 @@
+.talent_detail .form-submit-cvs .chosse_file_button {
+  position: relative;
+}
+
+.talent_detail .form-submit-cvs .chosse_file_button label {
+  background: url(../images/talent/chossefile.svg);
+  width: 402px;
+  height: 97px;
+  transform: scale(.8);
+  margin: 0px auto;
+  color: white;
+  cursor: pointer;
+}
+
+.form-submit-cvs {
+  font-size: 1em;
+}
+
+.talent_detail .tags span {
+  font-size: 1em;
+  margin: 0 5px;
+  text-decoration-line: underline;
+  color: #495057;
+}
+
+.title_list {
+  font-style: normal;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.job-content {
+  font-size: 1em;
+  color: #495057;
+  padding-right: 40px;
+}
+
+.job-content ul {
+  padding-left: 24px;
+}
+
+.job-content ul li {
+  position: relative;
+  font-size: 1em;
+  color: #495057;
+  padding-left: 10px;
+  padding-right: 40px;
+  margin-top: 8px;
+  list-style: disc;
+}
+
+.talent_detail .form-control {
+  height: 56px;
+  border-radius: 28px;
+  padding: 0.375em 2em;
+}
+
+.job-content ul li img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 6px;
+  left: -23px;
+}
+
+.job-content em {
+  font-style: italic;
+}
+
+/* 
+.tl_right {
+  margin-top: -80px;
+} */
+
+.talent_detail .tl_right {
+  background: #F8F9FA;
+  padding: 80px 40px;
+}
+
+.talent_detail .tl_right h3 {
+  font-size: 0.8em;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #51CF66;
+}
+
+@media (max-width: 1024px) {
+  /* .tl_right {
+    margin-top: -60px;
+  } */
+
+  .talent_detail .tl_right {
+    background: #F8F9FA;
+    padding: 60px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* .tl_right {
+    margin-top: -40px;
+  } */
+
+  .talent_detail .tl_right {
+    background: #F8F9FA;
+    padding: 40px 20px;
+  }
+
+  .talent_detail .form-submit-cvs .chosse_file_button label {
+    background: url(../images/talent/chossefile.svg);
+    width: 335px;
+    height: 97px;
+    transform: scale(.8);
+    margin: 0px auto;
+    margin-left: 0;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 320px) {
+  .talent_detail .form-submit-cvs .chosse_file_button label {
+    background: url(../images/talent/chossefile.svg);
+    width: 335px;
+    height: 97px;
+    transform: scale(.8);
+    /* margin: 0px auto; */
+    margin-left: -25px;
+    color: white;
+    cursor: pointer;
+  }
+}

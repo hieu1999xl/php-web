@@ -1,0 +1,150 @@
+.slide-event {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0
+}
+
+.box_title {
+    overflow: hidden;
+    height: 60px;
+
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+
+
+.title_news {
+    font-size: 1.2em;
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    display: -webkit-box;
+}
+
+.description_news {
+    font-size: 0.9em;
+    text-overflow: ellipsis;
+    height: 6.2em;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    display: -webkit-box;
+}
+
+.top_content_news {
+    margin-top: 80px;
+}
+
+.created_at {
+    font-size: 0.9em;
+}
+
+.menu_news_fixed {
+    display: block;
+    width: 80%;
+    padding: 20px;
+    background-color: #f0f2f5;
+    border-radius: 5px;
+}
+
+.menu_news_fixed {
+    border-bottom: 1px solid #D5DCE5
+}
+
+.menu_news_fixed:last-child {
+    border-bottom: unset;
+}
+
+
+.box_image_news {
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.child_page .box_image_news,
+.home_page .box_image_news {
+    height: 260px;
+}
+.news-page-link {
+    height: 100%;
+}
+
+.box_image_news img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.top_content_news .container {
+    padding-bottom: 80px;
+}
+
+.section_news_page .page_title {
+    color: var(--purple);
+    text-transform: uppercase;
+}
+
+.text_margin {
+    color: var(--color-text-default);
+}
+
+#btn_view_news {
+    text-align: center;
+}
+
+/* css new_detail */
+#dataListGioBug {
+    display: flex;
+}
+
+#dataListDx {
+    display: flex;
+}
+
+.top_content_news_box {
+    transition: 0.4s;
+}
+
+.top_content_news_box:hover {
+    margin-top: -15px;
+}
+
+/* the parent */
+
+.bNews {
+    background: url('../images/news/bnbot.webp');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---------- responsive ----------- */
+@media (max-width: 978px) {}
+
+@media (max-width: 768px) {
+    .menu_news_fixed {
+        width: 100%;
+    }
+    .top_content_news_box:hover {
+        margin-top: unset;
+    }
+    .top_content_news_box {
+        margin-bottom: 20px;
+    }
+}

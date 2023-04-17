@@ -1,0 +1,122 @@
+:root {
+  --pd: 15px;
+  --ticket-ml: 20px;
+  --orange: #f15d30;
+  --orange-darker: #a7300c;
+  --white: #fff;
+  --black: #000;
+  --blue: #2F80ED;
+  --brand: #353590;
+  --color-main-bg: #23459B;
+  --black-light: rgba(0, 0, 0, 0.1);
+  --gray: rgba(0, 0, 0, 0.05);
+  --text-clr-gray: #4F4F4F;
+  --icon-clr: #051F4D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2, h1 {
+  margin: 0;
+}
+
+
+textarea,
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex.justify--space-between {
+  justify-content: space-between;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-b-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 63px;
+}
+
+.sub-heading--white {
+  color: var(--white);
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 16px 0;
+}
+
+.heading--white {
+  color: var(--white);
+}
+
+.heading--large {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 6rem;
+  margin: 16px 0 24px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.btn--active {
+  color: gray;
+  background: var(--white);
+}

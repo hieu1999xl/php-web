@@ -1,0 +1,165 @@
+@import url('../base.css');
+
+.new-footer {
+  background-color: var(--background-footer);
+}
+
+.footer-general {
+  padding: 40px 0;
+  color: var(--color-text-default);
+  font-size: 0.8em;
+}
+
+.footer-general>div {
+  margin-top: 30px;
+}
+
+.title_footer {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.address_footer {
+  margin-bottom: 40px;
+}
+
+.address_footer li {
+  margin-bottom: 10px;
+}
+
+.address_footer .contact-via_email {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: unset;
+  background-color: var(--light-gray);
+}
+
+.list_menu_footer li {
+  margin: 10px 0;
+}
+
+.list_menu_footer li:first-child {
+  margin-top: 0;
+}
+
+.list_menu_footer li:first-child a {
+  padding-top: 0;
+}
+
+.list_menu_footer a {
+  padding: 5px 0;
+  display: block;
+  cursor: pointer;
+}
+
+.list_menu_footer .menu_lv2 {
+  color: var(--purple);
+}
+
+footer a:hover,
+.copyright a:hover,
+.room-box-title:hover {
+    color: var(--purple);
+}
+
+
+.mobile_visible {
+  display: none;
+}
+
+.footer-copyright-block {
+  background-color: var(--purple);
+  max-height: 80px;
+  height: 80px;
+  width: 100%;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.footer-copyright img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-copyright-privacy ul {
+  display: inherit;
+}
+
+.footer-copyright-privacy ul li {
+  margin: 0 20px;
+}
+
+.footer-copyright-privacy ul li a {
+  cursor: pointer;
+  text-decoration: revert;
+}
+
+.footer-copyright-privacy ul li a:hover {
+  color: white;
+}
+
+.footer-copyright {
+  display: flex;
+}
+
+.contain-footer-copyright,
+.footer-copyright {
+  align-items: center;
+}
+
+@media (max-width: 1440px) {
+  .footer-copyright-block {
+    max-height: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-copyright {
+    justify-content: center;
+    margin: 5px 0;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .mobile_visible img {
+    width: 30px;
+    margin: 10px 0;
+  }
+  .mobile_visible {
+    display: block;
+    text-align: center;
+  }
+  .footer-copyright-block {
+    max-height: 150px;
+    height: 150px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .mobile_visible li {
+    display: inline-block;
+    padding: 0 16px;
+  }
+  .footer-copyright-block {
+    max-height: 170px;
+    height: 170px;
+}
+}
+
+
+@media (max-width: 480px) {
+  .mobile_visible {
+    display: block;
+    text-align: center;
+  }
+
+  .row-footer-copyright {
+    font-size: 0.6em;
+  }
+}

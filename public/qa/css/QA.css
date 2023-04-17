@@ -1,0 +1,110 @@
+#main_product--heading {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+  padding-top: 95px;
+}
+.title_main-markets{
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  /* line-height: 0px; */
+  display: flex;
+  justify-content: center;
+  padding: 90px 0;
+  text-align: center;
+}
+ul.have_done--list{
+  padding-left: 15px;
+}
+.title_img--markets{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: end;
+}
+.title_header--threepage--heading{
+  font-weight: 59px;
+  font-weight: 900;
+  line-height: 70px;
+
+}
+#main_product--subtext{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #4F4F4F;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.main_product_img{
+  display: flex;
+  justify-content: center;
+}
+
+.header__welcome--box {
+  display: flex;
+  align-items: center;
+}
+.header_qa--img {
+  max-width: 602px;
+}
+.header__welcome--three{
+  height: calc(100% - 118px);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#header_firstpage--content{
+  font-size: 2.2rem;
+    text-align: justify;
+    line-height: 3.2rem;
+    font-weight: 700;display: block;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    
+}
+.header_infor--button--three{
+  width: 48%;
+    font-size: 2rem;
+    color: var(--brand);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header_infor--button--three:hover{
+  color: #4900A7;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.text_done_item{
+  padding-left: 25px;
+  display: flex;
+    align-items: center;
+}
+.have_done--img{
+  object-fit: contain;
+  min-width: 80px;
+}
+.btn_gotoTSO{
+  
+}
+.main_offer-content {
+  padding-top: 20px;
+}

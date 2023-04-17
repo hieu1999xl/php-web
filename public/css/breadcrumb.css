@@ -1,0 +1,80 @@
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.5rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #66799e;
+    content: "/";
+}
+
+.breadcrumb-item+.breadcrumb-item:hover::before {
+    text-decoration: underline;
+}
+
+.breadcrumb-item+.breadcrumb-item:hover::before {
+    text-decoration: none;
+}
+.breadcrumb-item,
+.breadcrumb-item a {
+    color: #66799e;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+@media (max-width: 768px) {
+    .breadcrumb_ol >.breadcrumbDetail{
+        width: calc(100% - 140px);
+    }
+}
+@media (min-width: 576px) {
+
+    .breadcrumb-item,
+    .breadcrumb-item a {
+        font-size: 1rem;
+    }
+}
+
+.breadcrumb-item.active {
+    font-weight: 400;
+}
+
+
+.breadcrumb-transparent {
+    background: transparent;
+    padding: 0;
+}
+
+.breadcrumb-primary {
+    background: #0648B3;
+}
+
+
+.breadcrumb-text-light .breadcrumb-item,
+.breadcrumb-text-light .breadcrumb-item a {
+    color: #ffffff;
+}
+
+.breadcrumb-text-light .breadcrumb-item:before {
+    color: #ffffff;
+}
+
+.padding-left-breadcrumb {
+    padding-left: 6rem !important;
+}
+
+.breadcrumbDetail{
+    width: calc(100% - 350px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.bg-breadcrumb .breadcrumb{
+    padding:0;
+    padding-left:0;
+    padding-top:0.9rem
+}
+.margin-breadcrumb {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}

@@ -1,0 +1,126 @@
+.bg_tech--img {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -80px;
+}
+
+.banner_content  #top {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #8989DD;
+}
+
+.banner_content h3 {
+    color: #FFFFFF;
+}
+
+.banner_content  p {
+
+    text-align: center;
+    font-size: 14;
+    line-height: 1.5;
+    color: #DEE2E6;
+}
+
+.bTech {
+    position: relative;
+}
+
+
+
+.bNews {
+    background: url("../images/news/bnbot.webp");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bNews_giobug {
+    background: url("../images/news/bnbot.webp");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_content .study-more {
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1024px) {
+    .banner_content  p{
+        text-align: center;
+        line-height: 1.5;
+        color: #DEE2E6;
+        padding: 0px 20px;
+    }
+    .container.banner_content  h1 {
+        padding: 10px 10px 50px 10px !important;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .banner_content  p {
+        text-align: center;
+        font-size: 14;
+        line-height: 1.5;
+        color: #DEE2E6;
+        padding: 0px 40px;
+    }
+} 
+
+@media (min-width: 992px) {
+    .banner_content  p {
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_bottom--index.bNews {
+        padding: 60px 0;
+}
+.banner_content {
+    max-width: unset !important;
+}
+}
+@media (max-width: 1024px) {
+    .bg_tech--img {
+        margin-top: -60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg_tech--img {
+        margin-top: -40px;
+    }
+    .banner_content  p {
+    
+        text-align: center;
+        font-size: 14;
+        line-height: 28px;
+        color: #DEE2E6;
+        font-size: 15px;
+    }
+    .banner_content  p{
+        text-align: justify;
+    }
+    .container.banner_content  #top {
+        display: none;
+        margin: 60px 0 40px 0;
+    }
+
+}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {
+
+}
+

@@ -1,0 +1,13 @@
+.item-services {
+  color: #52af45;
+}
+.item-industries {
+  color: #ee5050;
+}
+.item-technologies {
+  color: #353590;
+}
+
+.case_studies_desc, .case_studies_tags label {
+  color: var(--dark);
+}

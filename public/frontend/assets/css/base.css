@@ -1,0 +1,49 @@
+:root {
+    --purple: #353590;
+    --purple-medium: #6363bc;
+    --purple-regular: #8989dd;
+    --purple-light: #b6b6f3;
+    --purple-extralight: #d9d9f9;
+
+    --tag-services: #52af45;
+    --tag-industries: #ee5050;
+    --tag-technologies: #353590;
+
+    --color-text-default: rgb(79, 79, 79);
+    --blue: #0A48B3;
+    --indigo: #5603ad;
+    --pink: #f3a4b5;
+    --red: #f5365c;
+    --orange: #fb6340;
+    --yellow: #ffd600;
+    --green: #2dce89;
+    --teal: #11cdef;
+    --cyan: #2bffc6;
+    --gray: #8898aa;
+    --gray-dark: #5a5a5a;
+    --light-gray: #D5DCE5;
+    --lighter: #e9ecef;
+    --primary: #0A48B3;
+    --secondary: #f7fafc;
+    --success: #2dce89;
+    --info: #11cdef;
+    --warning: #fb6340;
+    --danger: #f5365c;
+    --light: #adb5bd;
+    --dark: #212529;
+    --default: #172b4d;
+    --white: #fff;
+    --darker: black;
+    --background-footer: #F0F2F5;
+
+     /* breakpoint responsive */
+    --breakpoint-xs-min: 320px;
+    --breakpoint-xs-se: 375px;
+    --breakpoint-xs-xr:425px;
+    --breakpoint-xs: 480px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1440px;
+    --font-family-sans-serif: 'Montserrat', sans-serif;
+  }

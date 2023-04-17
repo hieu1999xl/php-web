@@ -1,0 +1,44 @@
+insert_password
+
+
+
+
+$table->increments('id')->unsigned();
+
+            $table->string('job_name');
+            $table->string('job_intro')->nullable();
+            $table->string('job_description');
+            $table->string('job_requirement');
+            $table->string('job_benefits');
+            $table->string('job_location')->nullable();;
+            $table->string('job_time')->nullable();;
+            $table->string('job_title')->nullable();;
+            $table->string('job_salary')->nullable();;
+            $table->date('job_left_time');
+
+
+            $table->timestamps();
+            
+            
+            
+            
+            
+            
+            
+            protected $fillable = [
+        'job_name',
+        'job_intro',
+        'job_description',
+        'job_requirement',
+        'job_benefits',
+        'job_location',
+        'job_time',
+        'job_title',
+        'job_salary',
+        'job_left_time'
+    ];
+
+    public function language()
+    {
+        return $this->hasMany(languages::class, 'prefer_id', 'id');
+    }

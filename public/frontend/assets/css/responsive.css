@@ -1,0 +1,969 @@
+.head_carousel.slick-slider {
+    margin-bottom: 0px !important
+}
+
+
+
+.tech_mobile {
+    display: none;
+}
+
+.section_study .study_mobile {
+    display: none;
+}
+
+.tech_tablet {
+    display: none;
+}
+
+.section_work_with .work-list-mb .col-sm-6 {
+    display: none;
+}
+
+.section_work_with .work-list-mb {
+    display: none;
+}
+
+.section_work_with .work-list-tablet {
+    display: none;
+}
+
+.para_title_bg h2 {
+    text-transform: uppercase;
+}
+
+.para_title_bg strong {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* .sevices_product {
+    background-image: url(../images/section_2/service_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    height: 940px;
+} */
+/* .sevices_product .product-list tr td {
+    padding: 15px 0;
+}     */
+.sevices_product .product-list tr.active td {
+    height: 65px;
+}
+
+.sevices_product .product-list tr.long:hover td {
+    height: 65px;
+}
+
+.sevices_product .product-list tr:hover td {
+    height: 65px;
+}
+
+.sevices_product .product-list tr td {
+    height: 65px;
+}
+
+.section_project_mind .project_infor_pc {
+    display: block;
+}
+
+.section_project_mind .project_infor_mb {
+    display: none;
+}
+
+.section_work_with .work_des_pc {
+    display: block;
+}
+
+.section_work_with .work_des_mb {
+    display: none;
+}
+
+.sevices_product .product-list tr span {
+    padding-right: 38px;
+
+}
+
+
+.para_title_bg h3 {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.para_title_bg h4 {
+    font-size: 34px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.para_title_bg h5 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.para_title_bg h6 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.sevices_product .what_we_do,
+.section_study .case_study,
+.section_work_with .work_with_us,
+.section_project_mind .title {
+    font-size: 15px;
+}
+
+@media (max-width: 1280px) {
+
+    .we_are_special .special {
+        margin-top: -75px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .container.resMb {
+        padding: 0 60px;
+    }
+
+    #product_list {
+        max-width: 680px;
+        margin-left: 50px;
+    }
+
+    #study_homepage {
+        padding: 0px 20px;
+    }
+
+    #dataNewsHp {
+        padding: 80px 20px 0px 20px !important;
+    }
+}
+
+@media (max-width: 978px) {
+    .para_title_bg .space_title {
+        padding: 25px 0;
+        /* margin-top: -13%; */
+    }
+
+    .container.tech .row .listbrand .slick-slide .img-box {
+        background: aqua;
+        width: 145px;
+        text-align: -webkit-center;
+    }
+
+    .container.tech .row .listbrand article {
+        margin-left: 50px;
+    }
+
+
+    /* .sevices_product {
+        background-image: url(../images/section_2/service_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        padding: 80px 0;
+    } */
+
+    .sevices_product .product-list tr td {
+        padding: 17px 0;
+    }
+
+    .talk {
+        display: none;
+    }
+
+    .section_work_with .work-list-tablet {
+        display: block;
+        width: 100%;
+    }
+
+    .section_work_with .work-list-tablet .row {
+        text-align: center;
+    }
+
+    .section_work_with .work-list-tablet .work-box-img {
+        margin: auto;
+    }
+
+    .section_work_with .work-list-tablet .col-4 {
+        margin-bottom: 20px;
+    }
+
+    .box-shadow {
+        padding: 25px 0;
+    }
+
+    .study_info .desc {
+        color: #fff;
+
+        font-size: 16px;
+        line-height: 28px;
+        opacity: 0.8;
+    }
+
+    .section_work_with .work-list_pc {
+        display: none;
+    }
+
+    .section_study .study-box-img img {
+        height: auto;
+    }
+
+    .section_study .study-box {
+        margin-bottom: 90px;
+    }
+
+    .section_study .study_mobile {
+        display: block;
+    }
+
+    .section_study .study_mobile .col-12 {
+        padding: 0 60px;
+    }
+
+    .section_study .study_mobile .study-box {
+        margin-bottom: 80px;
+    }
+
+    .section_study .study_mobile .study-box.active .study-box-title {
+        color: #6363BC;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .section_study1 .study-box-img img,
+    #other-case .study-box-img img {
+        height: auto;
+    }
+
+    .section_study1 .study-box-title,
+    #other-case .study-box-title {
+        padding-top: 20px;
+        cursor: pointer;
+        font-size: 24px;
+        line-height: 28px;
+        color: #212529;
+    }
+
+    .sevices_product .product-list tr td:first-child {
+        width: 45px;
+    }
+
+    .section_work_with .work-list_pc .col-2 {
+        display: none;
+    }
+
+
+    .section_work_with .work-des {
+        /* margin-top: 40px; */
+        margin: 40px 0;
+    }
+
+    .study-box-img img {
+        height: auto;
+    }
+
+
+    .section_study .study_mobile .col-12 {
+        padding: 0;
+    }
+
+
+
+    .product-list {
+        font-size: 20px;
+    }
+
+    .sevices_product .product-list tr.active span {
+        font-size: 28px;
+    }
+
+    .study_info .category li {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .study_info .desc {
+        color: #fff;
+        font-size: 15px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+
+    .study-box-title {
+        font-size: 23px;
+    }
+
+    .section_work_with .work-list-mb .col-6 {
+        display: none;
+    }
+
+    .section_work_with .work-list-tablet {
+        display: block;
+        width: 100%;
+    }
+
+    .section_work_with .work-list-tablet .row {
+        text-align: center;
+    }
+
+    .section_work_with .work-list-tablet .work-box-img {
+        margin: auto;
+    }
+
+    .section_work_with .work-list-tablet .col-4 {
+        margin-bottom: 20px;
+    }
+
+    .box-shadow {
+        padding: 25px 0;
+    }
+
+    .sevices_product .product-list tr span {
+        padding-left: 15px;
+        margin: 0;
+    }
+
+
+    .section_study .study_mobile {
+        display: block;
+        padding: 0 60px;
+    }
+
+    .para_title_bg .space_title {
+        padding: 25px 0;
+        /* margin-top: -15%; */
+    }
+
+}
+
+@media (max-width: 640px) {
+    .sevices_product .product-list tr:hover span {
+        font-size: 23px;
+
+        padding-right: 30px;
+        color: #ffffff;
+        font-weight: bold;
+        border-left: 3px solid #ffffff;
+        cursor: pointer;
+        /* transition: all .2s; */
+    }
+
+    .section_study .study-box {
+        margin-top: 30px;
+    }
+
+    .para_title_bg img {
+        height: 100vh;
+    }
+
+    .para_title_bg .space_title {
+        padding: 25px 0;
+        /* margin-top: 15%; */
+    }
+
+    .link-inter,
+    .link-inter-hp {
+        color: #fff;
+        background: var(--color-1st);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 28px;
+        overflow: hidden;
+        position: relative;
+        transition-duration: 0.7s;
+        z-index: 30;
+        max-width: 172px;
+        margin-top: 35px;
+        margin: 35px 30px 0 30px;
+        cursor: pointer;
+    }
+
+    .link-inter.mobile-talent {
+        top: 10px;
+    }
+
+    .para_title_bg h2 {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 65px;
+        /* text-shadow: 4px 4px black; */
+    }
+
+    .para_title_bg .title_home {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 55px;
+        text-align: left;
+        padding: 0;
+        margin: 0 30px;
+    }
+
+    .para_title_bg h3 {
+        font-size: 29px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 75px;
+    }
+
+    .para_title_bg h4 {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 75px;
+    }
+
+    .para_title_bg h5 {
+        font-size: 23px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 75px;
+    }
+
+    .para_title_bg h6 {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 75px;
+    }
+
+    .section_we_are_special .tech_mobile .img-fluid {
+        background-color: #ffffff;
+        margin-left: 35px;
+    }
+
+    .section_we_are_special .container.mobile {
+        margin: auto;
+    }
+
+    .join-us.talk{
+        display: none;
+    }
+
+    .sevices_product .product-list tr td {
+        padding: 10px 0;
+    }
+
+
+    .tech_tablet {
+        display: none;
+    }
+
+    .product-list {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .sevices_product h3 {
+        padding: 0 20px 50px 20px;
+    }
+
+    .sevices_product .product-list tr.active p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .sevices_product .product-list tr.active span {
+        font-size: 24px;
+    }
+
+    .sevices_product .product-list tr span.tag {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .section_study .study_mobile {
+        display: block;
+    }
+
+    .section_work_with .work-des {
+        padding: 0 30px;
+    }
+
+    .section_work_with .work-list_pc .col-2 {
+        display: none;
+    }
+
+    .section_work_with .work-list-mb .col-6 {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section_work_with .work-list-tablet .col-4 {
+        display: none;
+    }
+
+    .section_work_with .work-list-mb {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .section_work_with .work-list-mb .col-6 .work-box .work-box-img {
+        margin: auto;
+    }
+
+    .box-shadow {
+        padding: 25px 0;
+    }
+
+    .section_study .study_mobile .study-box {
+        margin-bottom: 80px;
+    }
+
+    .section_study .study-more {
+        margin-top: 45px;
+    }
+
+    .section_work_with {
+        padding: 80px 0 0 0;
+    }
+
+    .section_study .study_mobile .col-12 {
+        padding: 0;
+    }
+
+    .section_work_with .work_des_pc {
+        display: none;
+    }
+
+    .section_work_with .work_des_mb {
+        display: block;
+    }
+
+    .link-inter {
+        color: #fff;
+        background: var(--color-1st);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 28px;
+        overflow: hidden;
+        position: relative;
+        transition-duration: 0.7s;
+        z-index: 2;
+        top: 55px;
+        width: 190px;
+        /* max-width: 227px; */
+    }
+}
+
+@media (max-width: 480px) {
+    .sevices_product {
+        padding: 60px 0;
+    }
+
+    .sevices_product .sevices_product_image_background {
+        max-width: calc(100% - 30px) !important;
+    }
+
+    .sevices_product .sevices_product_image_background {
+        height: 320px;
+        margin-bottom: 5px;
+    }
+
+
+    #product_list {
+        margin-left: 10px;
+    }
+
+    #content_product--services {
+        width: 200px;
+    }
+
+
+    .join-us.talk {
+        display: none;
+    }
+
+    .tech_tablet {
+        display: none;
+    }
+
+    .section_study .study_mobile .col-12 {
+        padding: 0;
+    }
+
+    .sevices_product .product-list tr td {
+        padding: 15px 0;
+    }
+
+    .product-list {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .sevices_product h3 {
+        padding: 20px 20px 50px 20px;
+    }
+
+    .sevices_product .product-list tr.active p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .sevices_product .product-list tr.long.active p {
+        height: 65px
+    }
+
+    .sevices_product .product-list tr.active span {
+        font-size: 24px;
+    }
+
+    .sevices_product .product-list tr span.tag {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .sevices_product h3,
+    .section_study h3 {
+        font-size: 1.5em;
+        padding-bottom: 30px;
+    }
+
+    .section_study .study_mobile {
+        display: block;
+        padding: 0 15px;
+    }
+
+
+    .section_work_with .work-list_pc .col-2 {
+        display: none;
+    }
+
+    .section_work_with .work-list-mb .col-6 {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section_work_with .work-list-mb {
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 0 15px;
+    }
+
+    .section_work_with .work-list-mb .col-6 .work-box .work-box-img {
+        margin: auto;
+    }
+
+    .box-shadow {
+        padding: 0px 10px;
+        height: 100%;
+    }
+
+    .section_study .study_mobile .study-box {
+        margin-bottom: 80px;
+    }
+
+    .section_study .study-more {
+        margin-top: 40px;
+    }
+
+    .section_work_with {
+        padding: 80px 0 0 0;
+    }
+
+    .section_work_with .work-list-tablet .col-4 {
+        display: none;
+    }
+
+    .section_study {
+        padding: 60px 0px 80px;
+    }
+
+    #btndrop {
+        height: auto !important;
+    }
+
+    .section_project_mind {
+        background: url("../images/tech_screen/gotprojectmghome.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px 0;
+        background-position: center;
+    }
+
+    .section_project_mind .project_infor_pc {
+        display: none;
+    }
+
+    .section_project_mind .project_infor_mb {
+        display: block;
+    }
+
+    .section_work_with .work_des_pc {
+        display: none;
+    }
+
+    .section_work_with .work_des_mb {
+        display: block;
+    }
+
+
+
+    .container.resMb {
+        width: 100%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: unset;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .link-inter label {
+        cursor: pointer;
+        z-index: 10;
+
+        font-size: 13px;
+        line-height: 24px;
+        text-align: center;
+        padding: 9px 0px;
+        top: 55px;
+        transition: height 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.3s;
+    }
+
+    .link-inter label {
+        cursor: pointer;
+        z-index: 10;
+
+        font-size: 11px;
+        line-height: 24px;
+        text-align: center;
+        padding: 7px 0px;
+        transition: height 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.3s;
+    }
+}
+
+/* @media (max-width: 425px){
+    padding-right: 0;
+} */
+@media (max-width: 425px) {
+    .para_title_bg h1 {
+        font-size: 33px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 65px;
+        text-shadow: 4px 4px black;
+    }
+
+    .para_title_bg h2 {
+        font-size: 33px;
+        color: #fff;
+        font-weight: 800;
+        line-height: 65px;
+        /* text-shadow: 4px 4px black; */
+    }
+
+    .container.resMb {
+        width: 100%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .join-us.talk {
+        display: none;
+    }
+
+    .section_study .study_mobile .col-12 {
+        padding: 15px;
+    }
+
+    .sevices_product .product-list tr td {
+        padding: 10px 0;
+    }
+
+    .para_title_bg .space_title {
+        padding: 25px 0;
+        /* margin-top: 12%; */
+    }
+}
+
+@media (max-width: 425px) {
+
+
+    .sevices_product .product-list tr td {
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+
+
+
+    .container.resMb {
+        width: 100%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .container.tech {
+        padding: 80px 0 80px 0;
+    }
+
+    .sevices_product .product-list tr:hover p {
+
+        font-size: 18px;
+        line-height: 32px;
+        color: #ffffff;
+        cursor: pointer;
+        transition: all .2s;
+    }
+
+    .container.resMb {
+        width: 100%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .sevices_product .product-list tr:hover span {
+        font-size: 16px;
+
+        padding-right: 30px;
+        color: #ffffff;
+        font-weight: bold;
+        border-left: 3px solid #ffffff;
+        cursor: pointer;
+        margin-left: 0px;
+        /* transition: all .2s; */
+    }
+
+
+    .section_study .study_mobile .col-12 {
+        padding: 0;
+    }
+
+    .sevices_product .product-list tr td {
+        padding: 15px 0;
+    }
+
+    .join-us.talk {
+        display: none;
+    }
+
+
+
+    .sevices_product .product-list tr td {
+        padding: 10px 0;
+    }
+
+    .sevices_product h3,
+    .section_study h3 {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    .sevices_product .product-list tr.active p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .section_work_with .work-des {
+        padding: 0 30px;
+        font-size: 14px;
+    }
+
+    .sevices_product .product-list tr.active span {
+        font-size: 18px;
+    }
+
+    .sevices_product .product-list tr span {
+        font-size: 14px;
+    }
+
+    .sevices_product .product-list tr p {
+        font-size: 14px;
+    }
+
+    .sevices_product .product-list tr span.tag {
+        font-size: 12px;
+        padding: 4px 10px;
+        margin: 0 0 0 10px;
+    }
+
+    .box-shadow {
+        padding: 0px 10px;
+        height: 100%;
+    }
+
+    .section_project_mind .desc,
+    .section_work_with .work-title {
+        font-size: 25px;
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    #iconfooter {
+        width: 85px;
+    }
+
+    .container.tech .row .col-12 h1 {
+        padding: 0 20px;
+    }
+
+    .container.tech .row .col-12 p {
+        text-align: center;
+        margin: 80px 0 20px 0;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #8989DD;
+        font-size: 14px;
+    }
+
+    .content p {
+        padding-top: 10px;
+
+        font-size: 14px;
+        line-height: 24px;
+        color: #495057;
+    }
+
+    .section_study {
+        padding: 80px 16px;
+    }
+
+    .sevices_product .what_we_do,
+    .section_study .case_study,
+    .section_work_with .work_with_us,
+    .section_project_mind .title {
+        font-size: 11px;
+    }
+
+    .section_project_mind .info {
+        margin: 40px 0 80px 0;
+        font-size: 14px;
+    }
+
+}

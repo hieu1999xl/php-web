@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "frontend-custom.scss"
+    ],
+    "names": [],
+    "file": "frontend-custom.css"
+}

@@ -1,0 +1,46 @@
+
+
+article img {
+    margin: 40px 0;
+}
+
+.img_partner--tech {
+    height: auto;
+}
+
+.img-box_partner img {
+    margin: 0;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-width: 199px;
+}
+
+.img-box_partner.slick-slide {
+    height: 150px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width: 576px) {
+    .container.tech {
+        padding: 80px 0px !important;
+    }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}

@@ -1,0 +1,246 @@
+.tooltip-inner {
+  background-color: var(--purple);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.technologies_block {
+  padding: 0 8%;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.tooltip.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: var(--purple);
+}
+
+.list-box {
+  margin: 20px auto;
+  max-width: 150px;
+  transition: transform .4s;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+img.image_technologies {
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.list-box:hover {
+  transform: scale(1.2);
+}
+
+.row_loading {
+  position: relative;
+}
+
+.padding_container {
+  padding: 0px;
+}
+
+.active .container_image {
+  background-color: var(--purple) !important;
+}
+
+.container_image {
+  cursor: pointer;
+  display: flex;
+  border: 1px solid #ebe9e4;
+  min-height: 160px;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+}
+
+.image_tech_contain {
+  width: 72px;
+  height: 72px;
+  min-width: 72px;
+  min-height: 72px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.image_technology_white {
+  height: 0;
+  width: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+.active .image_technology_white {
+  height: 65px;
+  width: 65px;
+  min-width: 65px;
+  min-height: 65px;
+}
+
+.active .image_technology {
+  height: 0;
+  width: 0;
+  min-width: 0;
+  min-height: 0;
+}
+
+.active .title_image {
+  color: white !important;
+  font-size: 1em;
+}
+.technology-contain .title_image, .technology-contain img {
+  transition: 0.2s;
+}
+.technology-contain:hover img  {
+  transform: scale(1.1);
+}
+.technology-contain:hover .title_image  {
+  font-size: 1.1em;
+}
+.title_image {
+  align-self: center;
+  font-size: 1em;
+  color: black;
+  font-weight: 500;
+}
+
+.container_image:hover {
+  background-color: #ddf8f8;
+}
+
+.planetcircle {
+  margin-top: 40px;
+  position: relative;
+  animation: planetcircle 2s infinite linear;
+}
+
+.planetcircle__a,
+.planetcircle__b {
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.planetcircle__a {
+  width: 6rem;
+  height: 6rem;
+  z-index: 1;
+  margin: -2.5rem 0 0 -2.5rem;
+  border: 8px solid var(--purple);
+  transform: rotate(45deg);
+  animation: planetcircle_a 2s infinite cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.planetcircle__b {
+  width: 3rem;
+  height: 3rem;
+  margin: -1rem 0 0 -1rem;
+  border: 8px solid var(--purple-light);
+  animation: planetcircle_b 2s .3s infinite cubic-bezier(0.76, 0, 0.24, 1);
+  transform: rotate(-45deg);
+}
+
+@keyframes planetcircle {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes planetcircle_a {
+  0% {
+    transform: rotate(45deg) scaleY(1);
+  }
+
+  50% {
+    transform: rotate(45deg) scaleY(-1);
+  }
+}
+
+@keyframes planetcircle_b {
+  0% {
+    transform: rotate(-45deg) scaleY(1);
+  }
+
+  50% {
+    transform: rotate(-45deg) scaleY(-1);
+  }
+}
+
+@media (max-width: 1280px) {
+  .technologies_child {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 1024x) {}
+
+@media (max-width: 768px) {
+  .planetcircle__a {
+    width: 1.8rem;
+    height: 1.8rem;
+    z-index: 1;
+    margin: -.9rem 0 0 -.9rem;
+    border: 3px solid var(--purple);
+    transform: rotate(45deg);
+    animation: planetcircle_a 2s infinite cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  .planetcircle__b {
+    width: 1rem;
+    height: 1rem;
+    margin: -.5rem 0 0 -.5rem;
+    border: 3px solid var(--purple-light);
+    animation: planetcircle_b 2s .3s infinite cubic-bezier(0.76, 0, 0.24, 1);
+    transform: rotate(-45deg);
+  }
+
+  .title_image {
+    font-size: 1em;
+  }
+
+  #technologies_switch_mobile {
+    min-height: 40px;
+  }
+
+  .technologies_block {
+    padding: 0;
+    position: relative;
+  }
+
+  .technologies_child {
+    padding: 10px 40px;
+  }
+
+  .image_technologies {
+    width: 80%;
+  }
+
+  .active .image_technology_white,
+  .image_technology {
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+  .image_tech_contain {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    margin-bottom: 12px;
+  }
+
+  .container_image {
+    display: flex;
+    border: 1px solid #ebe9e4;
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+}

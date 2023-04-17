@@ -1,0 +1,299 @@
+.planetcircle {
+    display: inline;
+    margin-top: 40px;
+    position: relative;
+    animation: planetcircle 2s infinite linear;
+}
+
+.loading-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.planetcircle__a,
+.planetcircle__b {
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.planetcircle__a {
+    width: 6rem;
+    height: 6rem;
+    z-index: 1;
+    margin: -2.5rem 0 0 -2.5rem;
+    border: 8px solid var(--purple);
+    transform: rotate(45deg);
+    animation: planetcircle_a 2s infinite cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.planetcircle__b {
+    width: 3rem;
+    height: 3rem;
+    margin: -1rem 0 0 -1rem;
+    border: 8px solid var(--purple-light);
+    animation: planetcircle_b 2s .3s infinite cubic-bezier(0.76, 0, 0.24, 1);
+    transform: rotate(-45deg);
+}
+
+@keyframes planetcircle {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes planetcircle_a {
+    0% {
+        transform: rotate(45deg) scaleY(1);
+    }
+
+    50% {
+        transform: rotate(45deg) scaleY(-1);
+    }
+}
+
+@keyframes planetcircle_b {
+    0% {
+        transform: rotate(-45deg) scaleY(1);
+    }
+
+    50% {
+        transform: rotate(-45deg) scaleY(-1);
+    }
+}
+
+.select_location .talent_title_location,
+.select_position .talent_title_position {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.talent_filter_desktop {
+    display: block;
+}
+
+.talent_filter_mobile {
+    display: none;
+}
+
+.select_location .list_checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.select_location .list_checkbox input {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    border: 1.5px solid #CED4DA;
+    border-radius: 6px;
+    width: 24px;
+    height: 24px;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+}
+
+.select_location .list_checkbox input:checked {
+    background: url("../images/talent/checked.svg");
+    background-size: cover;
+
+}
+
+.select_location .list_checkbox label {
+    font-size: 1em;
+    color: black;
+    margin: 10px 10px 10px 0;
+}
+
+.select_position a.talent_title_filter {
+    font-size: 0.8em;
+    line-height: 24px;
+    color: #212529;
+}
+
+.select_position .active .talent_title_filter {
+    color: var(--purple);
+}
+
+.list_talent_item .title_jobs {
+    font-size: 1em;
+}
+
+.list_talent_item .tags {
+    color: #495057;
+    font-size: 0.8em;
+}
+
+.list_talent_item .manyday {
+    font-size: 0.8em;
+    color: #ADB5BD;
+}
+
+.list_talent_item .fewday {
+    font-size: 0.8em;
+    color: #FA5252;
+}
+
+.list_talent_item {
+    background: #FFFFFF;
+    border: 1px solid #F1F3F5;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 4%);
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.list_talent_item .btn-round {
+    font-size: 0.8em;
+}
+
+.list_talent_item .btn-round:hover {
+    color: white;
+}
+
+.tags span {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    margin-right: 10px;
+}
+.talent_desktop_apply p, .talent_mobile_apply p {
+    margin-top: 12px;
+    text-align: center;
+}
+.talent_desktop_apply {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.talent_mobile_apply {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.list_talent_item .budget {
+    font-size: 0.8em;
+    color: #6363BC;
+}
+
+.component_search_talent {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_talent {
+    position: relative;
+}
+
+.section_talent_image {
+    position: absolute;
+    height: -webkit-fill-available;
+}
+
+.component_search_talent .form-search {
+    height: 48px;
+    width: 590px;
+    background-color: #b6b6f34b;
+    backdrop-filter: blur(4px);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.component_search_talent .form-search input {
+    background: none;
+    padding: 10px 0;
+    width: 324px;
+    border: none;
+    outline: none;
+    margin-left: 22px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.component_search_talent .iconsearch {
+    display: block;
+    width: 14px;
+    position: relative;
+    right: 25px;
+    display: none;
+}
+
+.component_search_talent input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.component_search_talent form button#search {
+    display: block;
+}
+
+.component_search_talent .col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.component_search_talent p {
+    margin: 20px 30px;
+    text-align: center;
+    color: white;
+}
+
+.component_search_talent p a {
+    text-decoration: revert;
+    margin: 0 5px;
+}
+
+.bg_talent {
+    background-image: url('../images/talent/bgtalent.png');
+    height: 450px;
+}
+
+@media (max-width: 768px) {
+    #search {
+        display: none;
+    }
+    
+    .talent_filter_desktop {
+        display: none;
+    }
+
+    .component_search_talent .iconsearch {
+        display: block;
+    }
+    .btn-round{
+        display: none;
+    }
+    .component_search_talent form button#search {
+        display: none;
+    }
+
+    .talent_filter_mobile {
+        display: block;
+    }
+
+    .component_search_talent .form-search {
+        width: auto;
+    }
+
+    .talent_form-group select {
+        width: 100%;
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 20px;
+        font-size: 1em;
+        border: 1px solid lightgray;
+    }
+}

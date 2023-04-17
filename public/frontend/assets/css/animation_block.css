@@ -1,0 +1,29 @@
+.block_animation {
+  visibility: visible;
+    animation-name: fadeInUp;
+    transition: transform 0.45s ease-in-out;
+}
+
+.box_title {
+  font-size: 1.2em;
+}
+
+.box_title:hover {
+  color: var(--purple);
+}
+
+.box_img {
+  cursor: pointer;
+  overflow: hidden;
+  width: 100%;
+  height: 240px;
+  border-radius: 5px;
+  margin-bottom: 20px
+}
+
+.box_img img {
+  width: 100%;
+  object-fit: cover;
+  align-items: center;
+  height: 100%;
+}

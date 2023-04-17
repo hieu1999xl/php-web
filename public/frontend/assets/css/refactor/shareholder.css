@@ -1,0 +1,134 @@
+.page_title {
+  color: var(--purple);
+}
+
+.listshareholder {
+  list-style: disc;
+}
+
+.listoffshore {
+  list-style: disc;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+
+.downloadhere {
+  color: #33328f !important;
+}
+
+.buttondownload {
+  font-size: 0.8em;
+  display: inline-block;
+  border-radius: 8px;
+  border: none;
+  background: var(--purple);
+  color: var(--white);
+  font-family: inherit;
+  text-align: center;
+  width: 10em;
+  padding: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.padding_container {
+  padding: 0 8%;
+}
+
+.shareholder-item {
+  padding: 15px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.buttondownload[disabled] {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+.buttondownload .text_download {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+  color: white;
+}
+
+.buttondownload .text_download_disable {
+  cursor: no-drop;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+  color: white !important;
+}
+
+.buttondownload .text_download:after {
+  /* content: 'for free'; */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.7s;
+}
+
+
+.buttondownload:hover .text_download:after {
+  opacity: 4;
+  right: 0;
+}
+
+.simple-pagination ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.simple-pagination {
+  margin-top: 10px;
+}
+
+.simple-pagination li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+  color: #CED4DA;
+  font-weight: 600;
+  padding: 14px;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: unset !important;
+  border: unset;
+}
+
+.simple-pagination .current {
+  color: #FFF;
+  background-color: #353590 !important;
+  display: inline-block;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+  background: unset !important;
+  color: #CED4DA;
+  font-size: 30px;
+  margin: 0 15px;
+  font-weight: 100;
+}
+
+.page-link.next {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0 15px;
+}
+
+@media (max-width: 480px) {
+  .download_contain {
+    text-align: center;
+    margin: 1em 0;
+  }
+}

@@ -1,0 +1,94 @@
+version: '2.0'
+services:
+
+  #PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cloudsigma.com/php
+    container_name: app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www/html/
+    volumes:
+      - ./:/var/www/html/
+      - ./php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
+    networks:
+      - app-network
+
+  #Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www/html/
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      #      - certbot-etc:/etc/letsencrypt
+      #      - certbot-var:/var/lib/letsencrypt
+      - dhparam:/etc/ssl/certs
+      - ssl:/etc/ssl/certificate
+    networks:
+      - app-network
+
+  #MySQL Service
+  db:
+    image: mysql:5.7.32
+    container_name: db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: tso_db
+      MYSQL_ROOT_PASSWORD: tso@2022Aug
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - dbdata:/var/lib/mysql/
+      - ./mysql/my.cnf:/etc/mysql/my.cnf
+    networks:
+      - app-network
+
+  #Let's Encrypt SSL
+#  certbot:
+#    image: certbot/certbot
+#    container_name: certbot
+#    volumes:
+#      - certbot-etc:/etc/letsencrypt
+#      - certbot-var:/var/lib/letsencrypt
+#      - ./:/var/www/html
+#    depends_on:
+#      - webserver
+#    command: certonly --webroot --webroot-path=/var/www/html --email minhlk@tinhvan.com --agree-tos --no-eff-email --force-renewal -d tso.vn -d www.tso.vn
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge
+#Volumes
+volumes:
+  #  certbot-etc:
+  #  certbot-var:
+  dhparam:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/tso/tso-website/dhparam/
+      o: bind
+  ssl:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/tso/tso-website/ssl/
+      o: bind
+  dbdata:
+    driver: local

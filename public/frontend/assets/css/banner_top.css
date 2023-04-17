@@ -1,0 +1,139 @@
+
+.section_banner_top{
+    position: relative;
+}
+.content_banner {
+    padding: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.content_banner .title_banner{
+    display: block;
+    font-size: 4.4em;
+    color: #FFFFFF;
+    margin:0px 0px 15px 35px;
+    text-shadow: 4px 3px 9px #00000052;
+}
+.content_banner .description_banner {
+    font-size: 1em;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left:35px;
+}
+.spacing_button{
+    margin: 0px 0px 0px 35px;
+}
+.bg_img{
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+.service-ousourcing-title {
+    font-size: 4.4em;
+    line-height: 10rem;
+    text-align: left;
+    color: white;
+}
+.service-ousourcing-content {
+    font-size: 1em;
+    line-height: 32px;
+    text-align: justify;
+    color: white;
+}
+.outsourcing_banner {
+    padding: 80px 0px 120px 35px;
+}
+.service-ousourcing--col {
+    padding: 0;
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 1440px) {}
+
+@media (max-width: 1024px) {
+    .section_banner_top .title_banner{
+        display: block;
+        font-size: 2.5em;
+        color: #FFFFFF;
+        margin:20px 0px 20px 30px;
+    }
+    .outsourcing_banner {
+        padding:60px 30px;
+    }
+    .service-ousourcing-title {
+        font-size: 70px;
+        line-height: 6rem;
+    }
+}
+@media (max-width: 768px) {
+    .section_banner_top .title_banner{
+        display: block;
+        font-size: 3em;
+        color: #FFFFFF;
+        margin: 0px 5% 0px 35px;
+    }
+    .section_banner_top .description_banner {
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 20px 5% 0px 35px;
+    }
+    .spacing_button{
+        margin: 20px 0px 0px 35px;
+    }
+}
+@media (max-width: 480px) {
+    .content_banner {
+        height: 350px;
+    }
+    .section_banner_top .title_banner{
+        display: block;
+        font-size: 1.5em;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin: 0px 5% 0px 35px;
+    }
+    .section_banner_top .description_banner {
+        font-size: 0.8em;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 0px 5% 0px 35px;
+    }
+}
+@media (max-width: 425px) {
+    .service-ousourcing-title {
+        font-size: 1.8em;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .service-ousourcing-title {
+        font-size: 1.2em;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+    .outsourcing_banner .service-ousourcing-content {
+        font-size: 1em;
+        line-height: 28px;
+        text-align: justify;
+        color: #FFFFFF;
+    }
+}
+@media (max-width: 320px) {
+    .section_banner_top .title_banner{
+        display: block;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin: 0px 5% 0px 35px;
+    }
+    .outsourcing_banner {
+        padding: 40px 20px 20px;
+    }
+}

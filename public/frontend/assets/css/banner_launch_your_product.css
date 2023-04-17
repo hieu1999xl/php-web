@@ -1,0 +1,56 @@
+.section_launch_your_product{
+    position: relative;
+}
+.section_launch_your_product_img{
+    position: absolute;
+    height: -webkit-fill-available;
+    object-fit: cover;
+}
+.title_laucnh {
+    font-size: 2.8em;
+    margin: auto;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    padding:0px 0px 40px;
+    text-transform: capitalize;
+}
+.description_launch{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #DEE2E6;
+}
+.study-more {
+    text-align: center;
+}
+.title_banner{
+    text-shadow: 4px 3px 9px #00000052;
+}
+
+.section_banner--row {
+    margin: 0;
+}
+
+@media (max-width: 1440px) {}
+@media (max-width: 1024px) {}
+@media (min-width: 1280px) {} 
+@media (min-width: 992px) {}
+@media (max-width: 768px) {
+.titleLaucnh {
+    font-size: 2.4em;
+    margin: auto;
+    line-height: 1.3em;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+.spacing_text{
+    padding:0px 20px;
+}
+}
+@media (max-width: 1024px) {}
+@media (max-width: 480px) {}
+@media (max-width: 425px) {}
+@media (max-width: 375px) {}
+@media (max-width: 320px) {}

@@ -1,0 +1,169 @@
+.sevices_product h2 {
+    color: var(--black);
+}
+
+.sevices_product_image_background.services_outsourcing {
+    max-width: unset !important;
+}
+
+.sevices_product .sevices_product_image_background {
+    max-width: 30%;
+    margin: auto;
+    height: 500px;
+    border-radius: 4px;
+    color: var(--white);
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sevices_product.sv_outsourcing--bg .sevices_product_image_background:nth-child(1) {
+    background-image: url("../images/outsourcing_services/Rectangle\ 24.png");
+}
+
+.sevices_product.sv_outsourcing--bg .sevices_product_image_background:nth-child(2) {
+    background-image: url("../images/outsourcing_services/Rectangle\ 25.png");
+}
+
+.sevices_product.sv_outsourcing--bg.sevices_product_image_background.nth_2:nth-child(3) {
+    background-image: url("../images/outsourcing_services/Rectangle\ 26.png");
+}
+
+.sevices_product_image_background.services_outsourcing.first_bg:nth-child(2) {
+    background-image: url("../images/outsourcing_services/professional-programmer-working-late-dark-office\ 1.png");
+}
+
+
+.sevices_product .sevices_product_image_background:nth-child(2) {
+    background-image: url("../images/services/outsource.webp");
+    background-position: center;
+}
+
+.sevices_product .sevices_product_image_background:nth-child(3) {
+    background-image: url("../images/services/inovation.webp");
+    background-position: center;
+}
+
+.sevices_product .sevices_product_image_background:nth-child(4) {
+    background-image: url("../images/services/human-resource.webp");
+    background-position: center;
+}
+
+.sevices_product .sevices_product_opacity {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    transition: .5s;
+    height: 15%;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+    padding: 20px 30px 0 30px;
+    background: linear-gradient(0deg, #353590, #00000000);
+}
+
+.sevices_product .sevices_product_opacity.product_height--outsoucing {
+
+    height: 20%;
+
+}
+
+.sevices_product .sevices_product_opacity .sevices_product_title {
+    font-size: 1.5em;
+    margin: 0 0 15px 0;
+    color: var(--white);
+}
+
+.sevices_product .sevices_product_opacity .sevices_product_link {
+    font-size: 1em;
+    display: none;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.sevices_product .sevices_product_opacity .sevices_product_link:hover {
+    margin-left: 10px;
+}
+
+.sevices_product .sevices_product_opacity .sevices_product_button {
+    margin-top: 1em;
+    font-size: 1em;
+    width: 132px;
+    display: none;
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+.sevices_product_image_background:hover .sevices_product_opacity {
+    backdrop-filter: blur(8px);
+    height: 100%;
+}
+
+.sevices_product_image_background:hover .sevices_product_button,
+.sevices_product_image_background:hover .sevices_product_link {
+    display: block;
+    transition-timing-function: ease-in;
+}
+
+
+@media (max-width: 1440px) {}
+@media (max-width: 1024px) {
+    .sevices_product .sevices_product_opacity .sevices_product_title {
+        font-size: 1.1em;
+    }
+    .sevices_product .sevices_product_opacity {
+        height: 15%;
+    }
+}
+@media (max-width: 992px) {
+    .sevices_product .sevices_product_image_background {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sevices_product .sevices_product_opacity .sevices_product_title {
+        font-size: 1.5em;
+    }
+    .sevices_product .sevices_product_image_background {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 480px) {
+    .sevices_product .sevices_product_image_background {
+        height: 320px;
+    }
+    .sevices_product .sevices_product_opacity {
+        padding: 60px 20px 0 20px;
+    }
+    .sevices_product .sevices_product_opacity .sevices_product_title {
+        font-size: 1.2em;
+    }
+    .sevices_product .sevices_product_opacity {
+        height: 35%;
+    }
+}
+
+@media (max-width: 425px) {
+    .sevices_product .sevices_product_opacity .sevices_product_title {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {
+    .sevices_product_link {
+        font-size: 0.8em;
+    }
+    .sevices_product .sevices_product_opacity .sevices_product_title {
+        font-size: 1em;
+    }
+    .sevices_product .sevices_product_opacity {
+        padding: 40px 20px 0 20px;
+    }
+}
+

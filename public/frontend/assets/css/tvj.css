@@ -1,0 +1,29 @@
+.tvj-para1 p {
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+    color: #495057;
+}
+
+.tvj-para1 img {
+    padding-top: 20px;
+    width: 584px;
+    height: 320px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+#tvj .box_content table .title{
+    text-align: center;
+    color: #353590;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#tvj .box_content table tr td {
+    border: 1px solid #cccc;
+    padding: 10px;
+    line-height: 24px;
+}
